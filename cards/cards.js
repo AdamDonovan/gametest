@@ -1,5 +1,5 @@
 [
-  {
+ myObj = {
     "NAME": "Embodiment of Being Tired",
     "Picture": "https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png",
     "ATTACK": 30,
