@@ -1,4 +1,3 @@
-<script>
 myObj{
     "name": "Embodiment of Being Tired",
     "Picture": "https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png",
@@ -449,7 +448,6 @@ myObj{
     "base_stat": 320,
     "card_priority": "Extremely Low"
   }
-]
 
-</script>
+
 
