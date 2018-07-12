@@ -1,6 +1,6 @@
 [
 myObj = {
-    "picture": "https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png",
+    "picture": "<img src="https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png" alt="Avatar" style="width:100%;opacity:0.85;border-radius:5px 5px 0 0">",
     "attack": 30,
     "defense": 48,
     "speed": 22,
