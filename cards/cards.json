@@ -1,5 +1,14 @@
 [
 myObj = {
+    "picture": "https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png",
+    "attack": 30,
+    "defense": 48,
+    "speed": 22,
+    "type": "Rock",
+    "base_stat": 100,
+    "card_priority": "High"
+  },
+    {
     "name": "Embodiment of Being Tired",
     "Picture": "https://raw.githubusercontent.com/AdamDonovan/gametest/master/images/woman_avatar.png",
     "attack": 30,
