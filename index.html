@@ -88,6 +88,27 @@ xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xmlhttp.send("x=" + dbParam);
 
 </script>
+
     
+    <!-- AJAX Test -->
+
+<div id="AJAX">
+<h2>The XMLHttpRequest Object</h2>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("AJAX").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "http://mradamdonovan.com/gametest/cards/cards.json", true);
+  xhttp.send();
+}
+</script>
 </body>
 </html> 
