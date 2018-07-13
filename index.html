@@ -77,7 +77,7 @@ xmlhttp.onreadystatechange = function() {
         myObj = JSON.parse(this.responseText);
         txt += "<table border='1'>"
         for (x in myObj) {
-            txt += "<tr><td>" + myObj[x].name + "</td></tr>";
+            txt += "<tr><td>" + myObj[0].name + "</td></tr>";
         }
         txt += "</table>"        
         document.getElementById("pesky").innerHTML = txt;
