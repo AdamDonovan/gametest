@@ -63,13 +63,13 @@ document.getElementById("demo1").innerHTML =  x ;
     
     <!-- Testing JSON Tables --> 
     
-    <h2>Make a table based on JSON data.</h2>
+   <h2>Make a table based on JSON data.</h2>
 
-<p id="demo2"></p>
+<p id="table"></p>
 
 <script>
 var obj, dbParam, xmlhttp, myObj, x, txt = "";
-obj = { "table":"name", "limit":60 };
+obj = { "table":"cards", "limit":20 };
 dbParam = JSON.stringify(obj);
 xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
@@ -80,7 +80,7 @@ xmlhttp.onreadystatechange = function() {
             txt += "<tr><td>" + myObj[x].name + "</td></tr>";
         }
         txt += "</table>"        
-        document.getElementById("demo2").innerHTML = txt;
+        document.getElementById("table").innerHTML = txt;
     }
 };
 xmlhttp.open("POST", "http://mradamdonovan.com/gametest/cards/cards.json", true);
@@ -88,7 +88,6 @@ xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xmlhttp.send("x=" + dbParam);
 
 </script>
-
     
     <!-- AJAX Test -->
 
